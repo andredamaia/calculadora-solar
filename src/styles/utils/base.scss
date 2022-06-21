@@ -1,5 +1,5 @@
 @import 'https://unpkg.com/swiper/swiper-bundle.css';
-@import 'https://fonts.googleapis.com/css2?family=Poppins&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap';
 
 *,
 *:after,
@@ -19,7 +19,7 @@
 
     --text-16: 1.6rem;
 
-    --font-poppins: 'Poppins', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
 }
 
 
@@ -28,7 +28,7 @@ html {
 }
 
 body { 
-    font-family: var(--font-poppins); 
+    font-family: var(--font-roboto); 
     font-size: var(--text-16); 
     background: var(--color-dark);
 }
@@ -55,4 +55,9 @@ a {
         color: var(--color-light);
         opacity: .6;
     }
+}
+
+.container {
+    width: 970px;
+    // overflow-y: scroll;
 }

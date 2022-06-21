@@ -1,7 +1,7 @@
 <?php
 
 // $pageurl = "https://".$_SERVER["SERVER_NAME"]; // Production
-$pageurl = "../boilerplate"; // Development
+$pageurl = "../calculadora"; // Development
 
 $url = explode('/', $_GET['cod']);
 $page = $url["0"];
